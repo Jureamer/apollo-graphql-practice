@@ -1,0 +1,12 @@
+type Movie {
+  id: Int!
+  title: String!
+  rating: Float!
+}
+
+type Query {
+  post: [Movie]!
+}
+
+export default schema
+
